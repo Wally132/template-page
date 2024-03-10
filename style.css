@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 150px;
+    padding: 26px;
+    margin: 4px;
+    border-bottom: 2px solid rgb(198, 198, 198);
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    padding: 0;
+    margin: 0;
+    border: solid 1px black
+}
+
+.signup {
+    background-color: rgba(248,180,106,255);
+    padding: 16px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.signup:hover {
+    background: #FFCD61;
+    box-shadow: inset -10.5rem 0 0 0 #FFCD61, inset 10.5rem 0 0 0 #FFCD61;
+}
+
+.container {
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.content-right img {
+    display: flex;
+    flex-basis: auto;
+    height: 400px;
+    width: 600px;
+    border-radius: 10% 30% 50% 70%;
+}
+
+.content-left h1 {
+    color: rgb(16, 49, 72);
+    font-size: 6rem;
+}
+
+.content-left h2 {
+    color: rgb(230, 207, 76);
+    font-size: 3rem;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(209, 209, 209);
+    color: white;
+}
+
+.learn-more {
+    margin-top: 12px;
+    font-size: 25px;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: rgba(147,180,233,255);
+    color: white;
+}
+
+.learn-more:hover {
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px, 0 0 200px #ff96ad;
+}
